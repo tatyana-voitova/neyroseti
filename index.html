@@ -27,22 +27,6 @@
         </div>
 
         <div class="header__items">
-          <div class="header__item">
-            <span>г. Москва</span> <br />
-            Электрозаводская улица, 12Б
-          </div>
-          <div class="header__item">
-            <span class="header__item__title">График работы</span> <br />
-            с 10:00 до 22:00
-          </div>
-          <div class="header__item">
-            <span class="header__item__title">E-mail</span> <br />
-            info@photochki.ru
-          </div>
-          <!-- <div class="header__item header__item_last">
-              <a href="79152009192" class="header__item__phone">+ 7 915 200-91-92</a>
-              RU | ENG
-            </div> -->
           <button id="header-hamburger" class="header__item">
             <img src="./assets/img/icons/hamburger.svg" alt="hamburger" class="header__item__hamburger" />
             <img src="./assets/img/icons/hamburger-mobile.svg" alt="hamburger"
@@ -51,7 +35,7 @@
         </div>
       </div>
 
-      <div class="header__sidebar sidebar">
+      <!-- <div class="header__sidebar sidebar">
         <button class="sidebar__close">
           <img src="./assets/img/icons/close.svg" alt="" />
         </button>
@@ -135,7 +119,7 @@
             info@photochki.ru
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </header>
 
@@ -191,16 +175,18 @@
 
 
               <div class="button button_right-img sidebar__item__contact-button sidebar__item__contact-button_telegram">
-                Пройти бесплатный урок
-                <img src="./assets/img/icons/arrow-right.svg" alt="">
+
+                <a href="#rates" style="color: #fff;">Пройти бесплатный урок</a>
+                <!-- <img src="./assets/img/icons/arrow-right.svg" alt=""> -->
               </div>
               <!-- <div class="button button_right-img sidebar__item__contact-button sidebar__item__contact-button_whatsapp">
                   Написать в Whatsapp
                   <img src="./assets/img/icons/arrow-right.svg" alt="">
                 </div> -->
               <div class="button button_right-img sidebar__item__contact-button sidebar__item__contact-button_call">
-                Смотреть программу курса
-                <img src="./assets/img/icons/arrow-right.svg" alt="">
+                <a href="#course" style="color: #fff;">Смотреть программу курса</a>
+
+                <!-- <img src="./assets/img/icons/arrow-right.svg" alt=""> -->
               </div>
             </div>
             <!-- <div class="promo__button-wrapper">
@@ -224,34 +210,38 @@
 
 
 
-    <section class="about-us">
+    <section class="about-us" id="course">
       <div class="container">
-        <h2 class="about-us__title">Фотосессия в студии в Москве с одеждой и визажем</h2>
+        <h2 class="about-us__title">Кому полезен этот курс ?</h2>
 
         <div class="about-us__text">
-          <span>Хотите, чтобы ваши фотографии были яркими, стильными и запоминающимися?</span>
-          <span>Тогда фотосессия в студии — это то, что вам нужно!</span>
-          <span>Мы предлагаем вам профессиональную фотосессию в уютной студии в Москве. </span>
-          <span>
-            Наши опытные фотографы и визажисты помогут вам создать неповторимый образ и сделать качественные снимки,
-            которые будут радовать вас долгие годы.
-          </span>
+          <h3 class="about-us__list-title">Предприниматели (эксперты, коучи, блогеры, фрилансеры, владельцы
+            онлайн-школ….)</h3>
 
-          <h3 class="about-us__list-title">Что мы предлагаем?</h3>
+          <h3 class="about-us__list-title">Вы сталкиваетесь с тем, что:</h3>
 
           <ul class="about-us__list">
-            <li>Профессиональную фотосессию с использованием профессионального оборудования.</li>
-            <li>Индивидуальный подход к каждому клиенту.</li>
-            <li>Широкий выбор образов и стилей.</li>
-            <li>Использование профессиональной косметики и аксессуаров.</li>
-            <li>Обработку фотографий в профессиональных редакторах.</li>
+            <li>Не хватает времени на контент и упаковку.</li>
+            <li>Сложно описать, чем вы реально полезны.</li>
+            <li>Идеи есть, а сформулировать — сложно.</li>
+            <li>Всё делаете сами, и это выматывает.</li>
+            <li>Тратите много времени на создание контента, а результата нет</li>
           </ul>
 
-          <h3 class="about-us__list-title">Почему стоит выбрать нас?</h3>
+          <h3 class="about-us__list-title">Что даст курс:</h3>
 
-          <ul class="about-us__list">
+          <span>
+            ✅ Сможете делегировать рутину нейросетям — от аналитики до текстов. <br>
+            ✅ Чётко распакуете свою ценность и упакуете её в понятную линейку продуктов. <br>
+            ✅ Начнёте выдавать контент в 3–5 раз быстрее — и с опорой на стратегию. <br>
+            ✅ Сформируете позиционирование, которое выделяет вас на фоне конкурентов.
+
+          </span>
+
+
+          <!-- <ul class="about-us__list">
             <li>
-              Мы работаем только с профессиональным оборудованием, которое позволяет получить качественные снимки.
+              ✅ Сможете делегировать рутину нейросетям — от аналитики до текстов.
             </li>
             <li>Наши фотографы и визажисты имеют большой опыт работы и знают, как создать идеальный образ.</li>
             <li>Мы предлагаем широкий выбор образов и стилей, чтобы каждый клиент мог найти что-то по душе.</li>
@@ -260,11 +250,122 @@
               кожи.
             </li>
             <li>Фотографии обрабатывает профессиональный ретушер.</li>
+          </ul> -->
+
+          <h3 class="about-us__list-title">Маркетологи, стратеги, продюсеры (начинающие и практикующие)</h3>
+          <h3 class="about-us__list-title">Вы сталкиваетесь с тем, что:</h3>
+          <ul class="about-us__list">
+            <li>Устали писать одни и те же брифы и отчёты вручную.</li>
+            <li>Нужно анализировать ЦА, делать распаковки, прогревы — а времени нет.</li>
+            <li>Хочется работать глубже, но без выгорания.</li>
+            <li>Хочется экономить время на создание контента и аналитику</li>
+            <li>Много проектов, и вы тонете в текучке.</li>
+            <li>Сложно быстро «распаковать» эксперта и создать рабочую линейку продуктов.</li>
+            <li>Нет времени на глубокий анализ ЦА и формулировку смыслов.</li>
           </ul>
 
+          <h3 class="about-us__list-title">Что даст курс:</h3>
+
           <span>
-            Не упустите возможность сделать фотосессию в студии в Москве с одеждой и визажем! Запишитесь на фотосессию
-            прямо сейчас и получите скидку!
+            ✅ Готовые промпты для стратегических задач: анализ ЦА, УТП, позиционирование. <br>
+            ✅ Автоматизация части процессов: тексты, идеи для рилс, статей в СМИ… <br>
+            ✅ Возможность масштабировать свою работу (и доход), выполняя больше задач за меньшее время. <br>
+            ✅ Рост экспертности: вы начнёте мыслить как digital-стратег с ИИ-инструментарием под рукой. <br>
+            ✅Будете работать меньше, зарабатывать больше<br>
+            ✅ Вы научитесь встраивать GPT в процесс упаковки: от интервью до позиционирования. <br>
+            ✅ Получите шаблоны для быстрого старта проектов: анализ, продукт, контент, продажи <br>
+            ✅ Сократите время на прогревы и сценарии — GPT будет писать с опорой на стратегию. <br>
+            ✅ Упростите запуск: больше не нужно ждать «пока эксперт дозреет»
+
+
+          </span>
+
+          <h3 class="about-us__list-title">Копирайтеры и контент-мейкеры</h3>
+          <h3 class="about-us__list-title">Вы сталкиваетесь с тем, что:</h3>
+
+          <ul class="about-us__list">
+            <li>Зависаете на идеях для постов, сторис, рилс.</li>
+            <li>Тексты «однотипные» — хочется глубины.</li>
+            <li>Платят мало, а времени уходит много.</li>
+            <li>Погружены в рутину, а не стратегические задачи</li>
+          </ul>
+
+          <h3 class="about-us__list-title">Что даст курс:</h3>
+
+          <span>
+            ✅ Сможете генерировать мощный контент в несколько кликов, не теряя смысла. <br>
+            ✅ Освоите структуру для глубокой распаковки личности клиента (или своей). <br>
+            ✅ Повысите чек: вы не просто «пишете тексты», а работаете на уровне стратегии и смысла. <br>
+            ✅ Разработаете контентные планеры с GPT, которые можно применять и продавать как услугу.
+          </span>
+
+          <h3 class="about-us__list-title">Эксперты, меняющие нишу или обновляющие позиционирование</h3>
+          <h3 class="about-us__list-title">Вы сталкиваетесь с тем, что:</h3>
+
+          <ul class="about-us__list">
+            <li>Переходите в новую тему и не знаете, как себя позиционировать.</li>
+            <li>Есть сильная экспертиза, но нет упаковки.</li>
+            <li>Старое позиционирование «не работает», а новое пока не понимаете, как оформить.</li>
+          </ul>
+
+          <h3 class="about-us__list-title">Что даст курс:</h3>
+
+          <span>
+            ✅ GPT поможет «услышать себя»: выстроить с нуля или обновить экспертный образ. <br>
+            ✅ Сформируете новую продуктовую линейку, опираясь на свои сильные стороны. <br>
+            ✅ Получите поддержку нейросети в формулировке нового контента. <br>
+            ✅ Уверенно заявите о себе — с чёткой структурой, смыслами и готовыми текстами.
+
+          </span>
+
+
+        </div>
+
+        <div class="about-us__text">
+          <h3 class="about-us__list-title">Нейросети — давно не мода, а новый стандарт</h3>
+          <span>
+            Я создала этот курс, чтобы показать, как ChatGPT и другие ИИ-инструменты могут заменить целую команду
+            помощников:
+            <br>
+            — исследователя, <br>
+            — копирайтера, <br>
+            — контент-менеджера, <br>
+            — стратега, <br>
+            — продуктолога….
+          </span>
+
+
+
+
+
+
+        </div>
+
+        <div class="about-us__text">
+          <h3 class="about-us__list-title">После курса вы научитесь:</h3>
+
+          <span>
+            ✅ Анализировать целевую аудиторию и собирать воронку боли через GPT <br>
+            ✅ Делать распаковку личности и экспертности с помощью нейросети — быстро и глубоко <br>
+            ✅ Формулировать чёткие, результативные запросы (промпты), чтобы получать не «водичку», а реальные смыслы
+            <br>
+            ✅ Создавать и описывать продуктовую линейку, опираясь на боли и желания аудитории <br>
+            ✅ Писать продающие тексты, которые читают и покупают <br>
+            ✅ Строить контент-стратегию на месяц вперёд за пару часов <br>
+            ✅ Сценарии для Reels, сторис, постов — без креативных мук <br>
+            ✅ Писать статьи в СМИ, которые усиливают личный бренд <br>
+            ✅ Строить прогревы, которые реально прогревают, а не просто «развлекают»
+
+
+          </span>
+
+          <h3 class="about-us__list-title">Результат:</h3>
+
+          <span>
+            Вы больше не будете тратить часы на «сесть и написать». Вместо этого — чёткая структура, персонализированные
+            тексты и
+            уверенность в своих словах.
+
           </span>
         </div>
       </div>
@@ -373,40 +474,39 @@
     </section>
 
 
-
     <section class="managers">
       <div class="container">
         <h2 class="managers__title">Руководитель обучения</h2>
 
         <div class="managers-wrapper">
           <div class="managers__img-wrapper">
-            <img src="./assets/img/manager-back.webp" alt="women" class="managers__img" />
+            <img src="./assets/img/slide-1-layer-back.jpg" alt="women" class="managers__img" />
 
             <!-- <svg
-                class="promo__dashed-ellipse managers__dashed-ellipse"
-                width="460"
-                height="300"
-                viewBox="0 0 460 300"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <ellipse
-                  class="promo__dashed-ellipse__path managers__dashed-ellipse__path"
-                  cx="230.124"
-                  cy="150.24"
-                  rx="129.73"
-                  ry="240.73"
-                  transform="rotate(-68.91 230.124 150.24)"
-                  stroke-linecap="round"
-                  stroke-dasharray="9 9"
-                />
-              </svg> -->
-            <img src="./assets/img/manager-top-part.webp" alt="women" class="promo__img-women managers__img-women" />
+                        class="promo__dashed-ellipse managers__dashed-ellipse"
+                        width="460"
+                        height="300"
+                        viewBox="0 0 460 300"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <ellipse
+                          class="promo__dashed-ellipse__path managers__dashed-ellipse__path"
+                          cx="230.124"
+                          cy="150.24"
+                          rx="129.73"
+                          ry="240.73"
+                          transform="rotate(-68.91 230.124 150.24)"
+                          stroke-linecap="round"
+                          stroke-dasharray="9 9"
+                        />
+                      </svg> -->
+            <!-- <img src="./assets/img/slide-1-layer-back.jpg" alt="women" class="promo__img-women managers__img-women" /> -->
           </div>
 
           <div class="managers__text-wrapper">
             <h3 class="managers__text-title">Валерия Лазарева</h3>
-            <h4 class="managers__text-subtitle">Руководитель проекта Фоточки</h4>
+            <!-- <h4 class="managers__text-subtitle">Руководитель проекта Фоточки</h4> -->
             <div class="managers__text-description">
               <span>Привет! Меня зовут Валерия, я являюсь основателем и руководителем проекта Фоточки.</span>
               <span>
@@ -449,7 +549,7 @@
 
     <!-- стоимость заказать -->
 
-    <section class="rates">
+    <section class="rates" id="rates">
       <div class="container rates-container">
         <h2 class="rates__title">Тарифы</h2>
 
@@ -598,10 +698,10 @@
 
   <footer class="footer">
     <div class="container">
-      <h2 class="footer__title">Фоточки</h2>
+      <h2 class="footer__title">Т.Войтова</h2>
 
       <div class="footer-wrapper">
-        <div class="footer__item">
+        <!-- <div class="footer__item">
           <h3 class="footer__item__title">Виды фотосессий</h3>
 
           <div class="footer__item__links">
@@ -665,14 +765,14 @@
                 class="footer__item__social-link__img footer__item__social-link__img_raster" />
             </a>
           </div>
-        </div>
+        </div> -->
 
         <div class="footer__item">
           <h3 class="footer__item__title footer__item__title_contacts">Контакты</h3>
 
           <div class="footer__item__contact">
-            <span class="footer__item__contact-city">г. Москва </span>
-            Электрозаводская улица, 12Б
+            <span class="footer__item__contact-city">г. Могилев </span>
+            Каштановая улица, 12Б
           </div>
 
           <div class="footer__item__contact">
@@ -685,8 +785,8 @@
             info@photochki.ru
           </div>
 
-          <a href="#feedback-section" class="button button_yellow footer__item__button">
-            Внести предоплату
+          <a href="#rates" class="button button_yellow footer__item__button">
+            Купить курс
             <img src="./assets/img/icons/arrow-right-black.svg" alt="" />
           </a>
         </div>
